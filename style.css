@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header-links {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.start {
+    background-color: rgb(31, 41, 55);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.logo {
+    color: rgb(255, 255, 255);
+    text-align: start;
+    font-size: 40px;
+    flex-basis: 1000px;
+}
+
+.links {
+    list-style: none;
+}
+
+
+/*topbar of start*/
+
+.header {
+    height: 75px;
+    /*background-color: blue;*/
+    display: flex;
+    flex-grow: 1;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 25px;
+    gap: 50px;
+    align-items: center;
+}
+
+/*main section under header*/
+
+.main {
+    /*background-color: blueviolet;*/
+    height: 300px;
+    margin-left: 125px;
+    margin-right: 125px;
+    flex-direction: row;
+    display: flex;
+
+
+}
+
+/*left and right block of main section of header*/
+
+.left {
+    /*background-color: yellow;*/
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.right {
+    background-color: red;
+    width: 900px;
+
+}
+
+/*left side of main header*/
+
+.line1 {
+    font-size: 50px;
+    color: white;
+}
+
+.line2 {
+    font-size: 20px;
+    color: wheat;
+}
+
+.sign-up {
+    width: 100px;
+    height: 30px;
+    background-color: wheat;
+    border-radius: 12px;
+}
