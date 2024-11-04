@@ -18,6 +18,7 @@
     height: 400px;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 
@@ -108,3 +109,79 @@
     height: auto;
     margin-bottom: 30px;
 }
+
+/*section after start section*/
+
+.subsection {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+
+.info {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: 900;
+    color: rgb(37, 52, 73);
+
+}
+
+/*box and box text*/
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 200px;
+    gap: 111px;
+    align-items: center;
+
+}
+
+.box {
+    border: solid black;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.textinfo {
+    display: flex;
+    justify-content: center;
+    gap: 105px;
+}
+
+.textinfo p {
+    font-size: 30px;
+    color: black;
+}
+
+
+/*section 3 for quote*/
+
+.quotesection {
+    background-color: rgb(153, 150, 150);
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.quote {
+    text-align: center;
+    font-size: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    font-style: italic;
+}
+
+.author {
+    text-align: end;
+    padding-right: 200px;
+    font-size: 25px;
+}
+
+/*section 4 for sign up box*/
