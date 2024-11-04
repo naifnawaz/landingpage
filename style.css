@@ -7,17 +7,14 @@
 
 }
 
-body {
-    display: flex;
-    flex-direction: column;
 
-}
 
 .header-links {
     color: white;
     text-decoration: none;
 }
 
+/*entire top of site broken into header and main*/
 
 
 .start {
@@ -29,17 +26,6 @@ body {
 
 
 
-.logo {
-    color: rgb(255, 255, 255);
-    text-align: start;
-    font-size: 40px;
-    flex-basis: 1000px;
-}
-
-.links {
-    list-style: none;
-}
-
 
 /*topbar of start*/
 
@@ -48,11 +34,18 @@ body {
     /*background-color: blue;*/
     display: flex;
     flex-grow: 1;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-left: 25px;
-    gap: 50px;
+    gap: 80px;
     align-items: center;
+
+
+}
+
+.logo {
+    color: wheat;
+    text-align: start;
+    font-size: 40px;
+    flex-basis: 1000px;
+    margin-left: 75px;
 }
 
 /*main section under header*/
@@ -82,12 +75,15 @@ body {
     background-color: red;
     width: 900px;
 
+
 }
 
 /*left side of main header*/
 
 .line1 {
+    margin-top: 10px;
     font-size: 50px;
+    font-weight: 500;
     color: white;
 }
 
@@ -101,4 +97,15 @@ body {
     height: 30px;
     background-color: wheat;
     border-radius: 12px;
+}
+
+/*image on right side of main*/
+
+.main-image {
+    width: 650px;
+    height: auto;
+    margin-bottom: 30px;
+
+
+
 }
