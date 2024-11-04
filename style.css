@@ -9,10 +9,6 @@
 
 
 
-.header-links {
-    color: white;
-    text-decoration: none;
-}
 
 /*entire top of site broken into header and main*/
 
@@ -46,6 +42,12 @@
     font-size: 40px;
     flex-basis: 1000px;
     margin-left: 75px;
+}
+
+.header-links {
+    color: wheat;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 /*main section under header*/
